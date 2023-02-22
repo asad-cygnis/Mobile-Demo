@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 5,
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "#B7BBC2",
+      },
+      undefined,
+    ]
+  }
+>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    testID="dropdown-modal"
+    transparent={true}
+    visible={false}
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="dropdown-click"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 44,
+            "justifyContent": "space-between",
+            "paddingHorizontal": 12,
+            "paddingVertical": 10,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "ProximaNova-Regular",
+              },
+              Object {
+                "color": "#131F30",
+                "fontSize": 27,
+              },
+              Object {
+                "lineHeight": 42,
+              },
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#131F30",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Select Gender
+        </Text>
+      </View>
+      <SvgMock
+        fill="#6B7280"
+        height={15}
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "resizeMode": "contain",
+              "width": 12,
+            },
+            undefined,
+          ]
+        }
+        width={15}
+      />
+    </View>
+  </View>
+</View>
+`;
